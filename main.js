@@ -71,7 +71,7 @@ light.position.set(0, 1, 1);
 scene.add(light);
 
 // add orbit controls
-const controls = new OrbitControls(camera, renderer.domElement);
+const controls = new OrbitControls(camera, renderer.domElement) ;
 controls.enableDamping = true;
 controls.dampingFactor = 0.1;
 controls.screenSpacePanning = false;
